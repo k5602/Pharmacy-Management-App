@@ -19,7 +19,7 @@ Here's a polished GitHub description for your application with integrated screen
 - 📊 Body metrics analysis (BMI, fat%, muscle%)
 - 🥗 Meal planning with breakfast/lunch/dinner/snacks
 - 📈 Weight progress tracking with historical data
-- 🧠 AI-powered diet suggestions based on BMI
+- 🧠 AI-powered diet suggestions based on BMI(Planned)
 
 ### **Medical Workflow**
 - 💊 Medication history tracking
