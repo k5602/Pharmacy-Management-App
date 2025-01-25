@@ -1,0 +1,118 @@
+/* Global font styling: NotoSansArabic */
+* {
+    font-family: 'NotoSansArabic', sans-serif;
+    font-size: 12px;  /* Reduced the default font size */
+}
+
+/* 1. Buttons with Gradient Backgrounds */
+QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #4CAF50, stop:1 #66BB6A);  /* Green gradient */
+    color: white;                     /* White text */
+    border: 1px solid #388E3C;        /* Darker green border */
+    border-radius: 10px;              /* Rounded corners */
+    padding: 6px 12px;                /* Compact padding */
+    font-weight: bold;                /* Bold font for emphasis */
+}
+
+/* Hover effect with gradient transition */
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #66BB6A, stop:1 #81C784); /* Brighter green gradient */
+}
+
+/* Pressed effect with darker green */
+QPushButton:pressed {
+    background-color: #388E3C;         /* Darker green when pressed */
+}
+
+/* 2. Tab Styling */
+QTabBar::tab {
+    background-color: #f9f9f9;        /* Light gray background */
+    border: 1px solid #A9A9A9;        /* Light gray border */
+    border-radius: 8px 8px 0 0;       /* Rounded top corners */
+    padding: 6px 10px;                /* Compact padding */
+    min-width: 120px;                 /* Smaller tab width */
+    font-size: 12px;                  /* Reduced font size */
+    color: #333333;                   /* Dark gray text */
+}
+
+QTabBar::tab:selected {
+    background-color: #4CAF50;        /* Green for selected tab */
+    color: white;                     /* White text for selected tab */
+    font-weight: bold;                /* Bold text */
+}
+
+QTabBar::tab:hover {
+    background-color: #e0e0e0;        /* Slightly darker gray on hover */
+}
+
+/* Adjust the tab height and width */
+QTabWidget::pane {
+    border: 1px solid #A9A9A9;        /* Border around the entire tab widget */
+}
+
+/* 3. Input Fields */
+QLineEdit, QTextEdit {
+    background-color: white;          /* White background */
+    border: 1px solid #ccc;
+    border-radius: 5px;               /* Slight rounding */
+    padding: 3px;                     /* Smaller padding */
+    font-size: 12px;                  /* Consistent font size */
+}
+
+/* Input focus effect */
+QLineEdit:focus, QTextEdit:focus {
+    border: 1px solid #4CAF50;        /* Green border on focus */
+}
+
+/* 4. Group Boxes */
+QGroupBox {
+    border: 1px solid #A9A9A9;        /* Light gray border */
+    border-radius: 5px;               /* Rounded corners */
+    padding: 10px;                    /* Padding inside group boxes */
+    background-color: #f9f9f9;        /* Light background */
+}
+
+QGroupBox::title {
+    padding: 0 3px;                   /* Padding around the title */
+    font-weight: bold;                /* Bold title */
+    font-size: 12px;                  /* Consistent title font size */
+}
+
+/* 5. Scrollable Areas */
+QScrollArea {
+    border: 1px solid #A9A9A9;        /* Border for scrollable areas */
+    background-color: #f0f0f0;        /* Light background */
+}
+
+/* 6. Table Headers */
+QHeaderView::section {
+    background-color: #4CAF50;        /* Green background for table headers */
+    color: white;                     /* White text for headers */
+    padding: 6px;                     /* Padding for header cells */
+    border: 1px solid #A9A9A9;        /* Light gray border */
+    font-weight: bold;                /* Bold text for headers */
+}
+
+/* 7. Table Cells */
+QTableWidget {
+    border: 1px solid #A9A9A9;        /* Border around the table */
+}
+
+QTableWidget::item {
+    padding: 4px;                     /* Padding inside each table cell */
+    font-size: 12px;                  /* Smaller font size for table content */
+}
+
+/* 8. Scrollbars */
+QScrollBar:vertical {
+    background: #ccc;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #888;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;                 /* Remove buttons on scrollbar */
+}

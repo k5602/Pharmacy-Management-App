@@ -1,0 +1,155 @@
+/* Global font styling: NotoSansArabic in dark mode */
+* {
+    font-family: 'NotoSansArabic', sans-serif;
+    font-size: 12px;
+    color: #E0E0E0;   /* Light gray text for dark background */
+}
+
+/* Main window background */
+QMainWindow {
+    background-color: #2b2b2b;
+}
+
+/* 1. Buttons */
+QPushButton {
+    background-color: #444444;         /* Dark gray for buttons */
+    color: white;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+/* Hover effect for buttons */
+QPushButton:hover {
+    background-color: #616161;         /* Brighter gray on hover */
+}
+
+/* Pressed effect for buttons */
+QPushButton:pressed {
+    background-color: #333333;
+}
+
+/* 2. Input Fields (QLineEdit, QTextEdit, QDateEdit) */
+QLineEdit, QTextEdit, QDateEdit {
+    background-color: #3c3c3c;         /* Dark background */
+    border: 1px solid #616161;         /* Lighter gray border */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    color: #E0E0E0;                    /* Light text */
+}
+
+/* Focus effect for input fields */
+QLineEdit:focus, QTextEdit:focus, QDateEdit:focus {
+    border: 1px solid #76FF03;         /* Green border on focus */
+}
+
+/* Calendar popup in QDateEdit */
+QCalendarWidget QWidget {
+    background-color: #2b2b2b;         /* Dark background for calendar */
+    color: #E0E0E0;                    /* Light text */
+    border: 1px solid #444444;
+}
+
+/* 3. Tab Styling */
+QTabBar::tab {
+    background-color: #333333;
+    border: 1px solid #424242;
+    border-radius: 8px 8px 0 0;
+    padding: 6px 10px;
+    min-width: 120px;
+    font-size: 12px;
+    color: #E0E0E0;
+}
+
+QTabBar::tab:selected {
+    background-color: #616161;
+    color: white;
+    font-weight: bold;
+}
+
+QTabBar::tab:hover {
+    background-color: #424242;
+}
+
+QTabWidget::pane {
+    border: 1px solid #424242;
+    background-color: #303030;
+}
+
+/* 4. Group Boxes */
+QGroupBox {
+    border: 1px solid #424242;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #303030;
+}
+
+QGroupBox::title {
+    padding: 0 3px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #E0E0E0;
+}
+
+/* 5. Menu and Menubar */
+QMenuBar {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+QMenuBar::item {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+QMenu {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+QMenu::item:selected {
+    background-color: #424242;
+}
+
+/* 6. Scrollable Areas */
+QScrollArea {
+    background-color: #2b2b2b;
+}
+
+/* 7. Table Headers */
+QHeaderView::section {
+    background-color: #424242;
+    color: #E0E0E0;
+    padding: 6px;
+    border: 1px solid #616161;
+    font-weight: bold;
+}
+
+/* 8. Table Cells */
+QTableWidget {
+    border: 1px solid #424242;
+}
+
+QTableWidget::item {
+    padding: 4px;
+    font-size: 12px;
+    color: #E0E0E0;
+    background-color: #333333;
+}
+
+/* 9. Scrollbars */
+QScrollBar:vertical {
+    background: #303030;
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background: #616161;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+}
