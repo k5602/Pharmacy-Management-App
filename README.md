@@ -4,7 +4,7 @@ Here's a polished GitHub description for your application with integrated screen
 
 # Dr. Abaza Pharmacy Management System
 
-![App Interface](Desktop-4.png)
+![App Interface](Desktop- 4.png)
 *A comprehensive desktop application for managing pharmacy client records, diet plans, and medical notes with Arabic/English support.*
 
 ## 🌟 Features
@@ -39,7 +39,7 @@ Here's a polished GitHub description for your application with integrated screen
 
 | Client Information | Diet Planning | PDF Reports |
 |--------------------|---------------|-------------|
-| ![General Info](Desktop-1.png) | ![Diet Interface](Desktop-5.png) | ![PDF Report](Desktop-6.png) |
+| ![General Info](Desktop- 1.png) | ![Diet Interface](Desktop- 5.png) | ![PDF Report](Desktop- 6.png) |
 
 ---
 
