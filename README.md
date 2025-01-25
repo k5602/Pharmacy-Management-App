@@ -48,6 +48,7 @@ Here's a polished GitHub description for your application with integrated screen
 ```python
 Python 3.9+
 PyQt5 - Cross-platform GUI
+qss
 SQLite - Client data storage
 WeasyPrint - PDF generation
 Arabic-Reshaper - RTL text processing
@@ -70,7 +71,7 @@ python app.py
 3. **Default Credentials**
 ```
 Username: admin
-Password: a2024
+Password: 502024
 ```
 
 ---
