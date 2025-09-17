@@ -162,9 +162,9 @@ class ApplicationSettings(BaseSettings):
     """Main application settings that combines all configuration"""
 
     # Application info
-    app_name: str = Field(default="Dr.Abaza Pharmacy Management", description="Application name")
+    app_name: str = Field(default="Pharmacy Management System", description="Application name")
     app_version: str = Field(default="2.0.0", description="Application version")
-    organization: str = Field(default="Dr.Abaza Pharmacy", description="Organization name")
+    organization: str = Field(default="Pharmacy Management System", description="Organization name")
 
     # Feature flags
     enable_advanced_search: bool = Field(default=True, description="Enable advanced search features")

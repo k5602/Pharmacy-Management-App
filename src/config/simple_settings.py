@@ -89,7 +89,7 @@ class ApplicationSettings:
     def __init__(self):
         self.app_name = "Pharmacy Management System"
         self.app_version = "2.0.0"
-        self.organization = "Dr.Abaza Pharmacy"
+        self.organization = "Khaled Alam"
 
         # Initialize sub-settings
         self.database = DatabaseSettings()

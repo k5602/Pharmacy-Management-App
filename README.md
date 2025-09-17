@@ -400,7 +400,7 @@ python src/main.py
 
 - **Issues**: Report bugs on GitHub Issues
 - **Discussions**: Join community discussions
-- **Support**: Contact support@abazapharmacy.com
+- **Support**: Contact the developer via email
 - **Documentation**: Check the docs/ folder
 
 ## 📄 License
@@ -437,7 +437,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Real-time collaboration
 - [ ] Advanced reporting
 - [ ] Enterprise features
-
----
-
-**Dr.Abaza Pharmacy Management System v2.0** - Empowering healthcare through technology 🏥💊
